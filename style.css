@@ -1,8 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
   font-family: "Nunito", sans-serif;
-  background-image: url(https://i.pinimg.com/564x/13/6d/e5/136de5906ff13b0e41acc2e05bb34b5f.jpg);
+  background-image: url(background-image-XR.jpg);
 }
 
 h1{
@@ -28,34 +29,15 @@ a{
   color: black;
 }
 
-/* img, p, h1, h2{
-    z-index: 10;
-} */
-
-/* header{
-  position: fixed;
-} */
-
 .topbar {
   width: 99.999%;
   height: 100px;
-  /* border: 1px dotted black; */
   background-color: white;
-  /* position: fixed;
-  top: 0px; */
 }
-
-/* .blankness{
-  width: 99.999%;
-  height: 100px;
-  border: 1px dotted black;
-  background-color: white;
-} */
 
 .logoarea {
   height: 100%;
   width: 30%;
-  /* border: 1px dotted olivedrab; */
   float: left;
   text-align: center;
 }
@@ -71,7 +53,6 @@ a{
 .navbar {
   height: 100%;
   width: 50%;
-  /* border: 1px dotted olivedrab; */
   float: right;
   display: flex;
   justify-content: space-evenly;
@@ -89,12 +70,9 @@ a{
 .committment {
   margin: auto;
   margin-top: 30px;
-  /* padding: 10%; */
   width: 80%;
   border: 5px dotted olivedrab;
   border-radius: 100px;
-  /* background-color: white;
-  opacity: 85%; */
   background-color: rgba(255, 255, 255, 0.85);
 }
 
@@ -103,22 +81,14 @@ a{
   margin-top: 30px;
   width: 80%;
   text-align: center;
-  /* border: 1px dotted olivedrab; */
 }
-
-/* h1.tagline{
-    font-size: 80px;
-    font-weight: 1200;
-} */
 
 .commdesc {
   margin: auto;
-  /* padding: 5%; */
   padding: 2% 5% 2% 5%;
   width: 80%;
   text-align: center;
   font-size: 20px;
-  /* border: 1px dotted olivedrab; */
 }
 
 .bsitem {
@@ -128,11 +98,8 @@ a{
   padding-bottom: 5%;
   border: 5px dotted olivedrab;
   border-radius: 100px;
-  /* height: auto; */
   display: flex;
   flex-direction: column;
-  /* opacity: 85%;
-  background-color: white; */
   background-color: rgba(255, 255, 255, 0.85);
 
 }
@@ -142,7 +109,6 @@ a{
   margin: 5% 10% 5% 10%;
   width: 80%;
   text-align: center;
-  /* border: 1px solid olivedrab; */
 }
 
 
@@ -169,7 +135,6 @@ a{
   height: 400px;
   padding: 0 5% 0 5%;
   float: right;
-  /* border: 1px solid olivedrab; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -181,10 +146,6 @@ a{
   margin: auto;
   margin-top: 20px;
   width: 80%;
-  /* border: 1px solid olivedrab; */
-  /* display: flex;
-    justify-content: center;
-    flex-direction: column; */
 }
 
 #fullmenudirect {
@@ -227,7 +188,6 @@ a{
   margin-top: 5%;
   width: 80%;
   text-align: center;
-  /* border: 1px solid olivedrab; */
   font-size: 30px;
 }
 
@@ -249,7 +209,6 @@ h2.detwh {
   width: 80%;
   margin: auto;
   text-align: center;
-  /* border: 1px solid olivedrab; */
   margin-bottom: 5%;
 }
 
@@ -272,7 +231,6 @@ h2.detwh {
   margin-top: 5%;
   width: 80%;
   text-align: center;
-  /* border: 1px solid olivedrab; */
   font-size: 30px;
 }
 
@@ -281,15 +239,9 @@ h2.detwh {
   margin-top: 5%;
   width: 80%;
   text-align: center;
-  /* border: 1px solid olivedrab; */
   font-size: 30px;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; */
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 30px; */
 }
 
 .revimg{
@@ -332,7 +284,6 @@ h2.detwh {
   margin-top: 5%;
   width: 80%;
   text-align: center;
-  /* border: 1px solid olivedrab; */
   font-size: 30px;
 }
 
@@ -359,7 +310,6 @@ h2.detwh {
   margin-top: 5%;
   width: 80%;
   text-align: center;
-  /* border: 1px solid olivedrab; */
   font-size: 30px;
 }
 
@@ -452,26 +402,20 @@ table{
   margin: 50px 20px 50px 20px;
   border: 3px solid olivedrab;
   border-radius: 10px 10px 20px 20px;
-  /* padding: 0 5% 0 5%; */
 }
 
 th{
   font-size: 30px;
   font-weight: 600;
-  /* line-height: 100px; */
   padding: 20px;
   text-align: center;
   border: 3px solid olivedrab;
   border-radius: 10px;
-  /* text-decoration: underline 3px wavy olivedrab; */
 
 }
 
 tr{
   font-size: 20px;
-  /* height: fit-content; */
-  /* height: 120px; */
-  /* padding: 20px; */
 }
 
 td{
