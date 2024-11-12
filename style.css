@@ -20,8 +20,6 @@ h2{
 }
 
 p{
-      /* font-size: 20px; */
-
     font-size: 1.25rem;
     font-weight: 400;
 }
@@ -30,10 +28,6 @@ a{
   text-decoration: none;
   color: black;
 }
-
-/* header{
-  position: fixed;
-} */
 
 .topbar {
   width: 99.999%;
@@ -89,11 +83,10 @@ a{
 
 #navoptions:hover {
   background-color: olivedrab;
-  /* border: 2px solid oli; Border color when hovered */
 }
 
 #navoptions:hover a {
-  color: white; /* Change the text color to olivedrab */
+  color: white;
 }
 
 .committment {
@@ -205,9 +198,9 @@ a{
 }
 
 #fullmenubutton:hover {
-  background-color: white;  /* Background color turns white on hover */
-  color: black;  /* Text color remains black */
-  border: 5px double olivedrab;  /* Optional: add a border on hover */
+  background-color: white;
+  color: black;
+  border: 5px double olivedrab;
 }
 
 .workinghours {
@@ -472,8 +465,8 @@ tr{
 }
 
 .menutable table tr:hover {
-  background-color: olivedrab;  /* Sets background to Olivedrab on hover */
-  color: white;  /* Changes the text color to white on hover */
+  background-color: olivedrab;
+  color: white;
 }
 
 td{
