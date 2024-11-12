@@ -172,7 +172,7 @@ a{
 
 #fullmenudirect {
   margin: auto;
-  width: 80%;
+  width: 90%;
   text-align: center;
   font-size: 30px;
   line-height: 50px;
@@ -186,13 +186,13 @@ a{
 #fullmenubutton {
   margin-right: 5%;
   width: 35%;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   border: 5px double black;
   border-radius: 50px;
-  line-height: 50px;
+  line-height: 40px;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 15px;
   background-color: olivedrab;
   color: white;
 }
